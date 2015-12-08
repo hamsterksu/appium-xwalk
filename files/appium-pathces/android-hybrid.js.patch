@@ -1,0 +1,11 @@
+@@ -141,6 +141,10 @@
+     chromeOptions: {
+       androidPackage: this.args.appPackage,
+       androidUseRunningApp: true
++    },
++    xwalkOptions: {
++      androidPackage: this.args.appPackage,
++      androidUseRunningApp: true
+     }
+   };
+   if (this.args.enablePerformanceLogging) {
